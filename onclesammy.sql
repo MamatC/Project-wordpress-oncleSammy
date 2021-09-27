@@ -635,7 +635,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (28, 12, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:240;s:6:\"height\";i:240;s:4:\"file\";s:26:\"2021/09/cropped-logo-1.png\";s:5:\"sizes\";a:2:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:26:\"cropped-logo-1-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";}s:24:\"vw-bakery-homepage-thumb\";a:4:{s:4:\"file\";s:26:\"cropped-logo-1-240x145.png\";s:5:\"width\";i:240;s:6:\"height\";i:145;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (29, 13, '_edit_lock', '1632403069:1'),
 (30, 13, '_wp_trash_meta_status', 'publish'),
-(31, 13, '_wp_trash_meta_time', '1632403081'),
+(31, 13, '_wp_trash_meta_time', '1632403081')
 (32, 14, '_edit_lock', '1632476509:1'),
 (33, 15, '_edit_lock', '1632748487:1'),
 (34, 34, 'forminator_form_meta', 'a:4:{s:6:\"fields\";a:4:{i:0;a:22:{s:2:\"id\";s:6:\"name-1\";s:10:\"element_id\";s:6:\"name-1\";s:7:\"form_id\";s:26:\"wrapper-1511347711918-1669\";s:4:\"type\";s:4:\"name\";s:4:\"cols\";s:2:\"12\";s:8:\"required\";b:1;s:11:\"field_label\";s:7:\"Prénom\";s:11:\"placeholder\";s:19:\"Par exemple : Jean\";s:12:\"prefix_label\";s:8:\"Préfixe\";s:11:\"fname_label\";s:7:\"Prénom\";s:17:\"fname_placeholder\";s:19:\"Par exemple : Jean\";s:11:\"mname_label\";s:17:\"Deuxième prénom\";s:17:\"mname_placeholder\";s:21:\"Par exemple : Dupont\";s:11:\"lname_label\";s:14:\"Nom de famille\";s:17:\"lname_placeholder\";s:21:\"Par exemple : Durand\";s:10:\"wrapper_id\";s:26:\"wrapper-1511347711918-1669\";s:13:\"multiple_name\";s:4:\"true\";s:10:\"conditions\";a:0:{}s:5:\"fname\";b:1;s:5:\"lname\";b:1;s:14:\"fname_required\";b:1;s:14:\"lname_required\";b:1;}i:1;a:11:{s:2:\"id\";s:7:\"email-1\";s:10:\"element_id\";s:7:\"email-1\";s:7:\"form_id\";s:26:\"wrapper-1511347712118-1739\";s:4:\"type\";s:5:\"email\";s:4:\"cols\";s:2:\"12\";s:8:\"required\";s:4:\"true\";s:11:\"field_label\";s:21:\"Adresse de messagerie\";s:11:\"placeholder\";s:33:\"Par exemple : jacques@martin.com\";s:10:\"validation\";b:1;s:15:\"validation_text\";s:0:\"\";s:10:\"wrapper_id\";s:26:\"wrapper-1511347712118-1739\";}i:2;a:12:{s:2:\"id\";s:7:\"phone-1\";s:10:\"element_id\";s:7:\"phone-1\";s:7:\"form_id\";s:26:\"wrapper-1311247712118-1194\";s:4:\"type\";s:5:\"phone\";s:4:\"cols\";s:2:\"12\";s:8:\"required\";b:0;s:11:\"field_label\";s:22:\"Numéro de téléphone\";s:11:\"placeholder\";s:29:\"Par exemple : +1 02 03 04 05\";s:10:\"validation\";s:4:\"none\";s:21:\"phone_validation_type\";s:8:\"standard\";s:15:\"validation_text\";s:0:\"\";s:10:\"wrapper_id\";s:26:\"wrapper-1311247712118-1194\";}i:3;a:12:{s:2:\"id\";s:10:\"textarea-1\";s:10:\"element_id\";s:10:\"textarea-1\";s:7:\"form_id\";s:26:\"wrapper-1988247712118-9871\";s:4:\"type\";s:8:\"textarea\";s:4:\"cols\";s:2:\"12\";s:8:\"required\";b:0;s:11:\"field_label\";s:7:\"Message\";s:11:\"placeholder\";s:26:\"Saisissez votre message…\";s:10:\"input_type\";s:9:\"paragraph\";s:5:\"limit\";s:3:\"180\";s:10:\"limit_type\";s:10:\"characters\";s:10:\"wrapper_id\";s:26:\"wrapper-1988247712118-9871\";}}s:8:\"settings\";a:84:{s:17:\"pagination-header\";s:3:\"nav\";s:14:\"paginationData\";a:2:{s:24:\"pagination-header-design\";s:4:\"show\";s:17:\"pagination-header\";s:3:\"nav\";}s:8:\"formName\";s:11:\"oncle sammy\";s:7:\"version\";s:6:\"1.15.2\";s:17:\"form-border-style\";s:4:\"none\";s:12:\"form-padding\";s:0:\"\";s:11:\"form-border\";s:0:\"\";s:12:\"fields-style\";s:4:\"open\";s:10:\"validation\";s:9:\"on_submit\";s:18:\"akismet-protection\";i:0;s:10:\"form-style\";s:8:\"material\";s:11:\"enable-ajax\";s:4:\"true\";s:9:\"autoclose\";s:4:\"true\";s:20:\"submission-indicator\";s:4:\"show\";s:15:\"indicator-label\";s:22:\"Soumission en cours…\";s:9:\"form-type\";s:7:\"default\";s:20:\"submission-behaviour\";s:18:\"behaviour-thankyou\";s:16:\"thankyou-message\";s:67:\"Merci de nous avoir contacté, nous reviendrons vers vous sous peu.\";s:10:\"submitData\";a:2:{s:18:\"custom-submit-text\";s:18:\"Envoyer le message\";s:27:\"custom-invalid-form-message\";s:79:\"Erreur : votre formulaire n’est pas valide, veuillez corriger les erreurs !\";}s:17:\"validation-inline\";b:1;s:11:\"form-expire\";s:9:\"no_expire\";s:16:\"form-padding-top\";s:1:\"0\";s:18:\"form-padding-right\";s:1:\"0\";s:19:\"form-padding-bottom\";s:1:\"0\";s:17:\"form-padding-left\";s:1:\"0\";s:17:\"form-border-width\";s:1:\"0\";s:18:\"form-border-radius\";s:1:\"0\";s:23:\"cform-label-font-family\";s:6:\"Roboto\";s:25:\"cform-label-custom-family\";s:0:\"\";s:21:\"cform-label-font-size\";s:2:\"12\";s:23:\"cform-label-font-weight\";s:4:\"bold\";s:23:\"cform-title-font-family\";s:6:\"Roboto\";s:25:\"cform-title-custom-family\";s:0:\"\";s:21:\"cform-title-font-size\";s:2:\"45\";s:23:\"cform-title-font-weight\";s:6:\"normal\";s:22:\"cform-title-text-align\";s:4:\"left\";s:26:\"cform-subtitle-font-family\";s:6:\"Roboto\";s:26:\"cform-subtitle-custom-font\";s:0:\"\";s:24:\"cform-subtitle-font-size\";s:2:\"18\";s:26:\"cform-subtitle-font-weight\";s:6:\"normal\";s:25:\"cform-subtitle-text-align\";s:4:\"left\";s:23:\"cform-input-font-family\";s:6:\"Roboto\";s:23:\"cform-input-custom-font\";s:0:\"\";s:21:\"cform-input-font-size\";s:2:\"16\";s:23:\"cform-input-font-weight\";s:6:\"normal\";s:23:\"cform-radio-font-family\";s:6:\"Roboto\";s:23:\"cform-radio-custom-font\";s:0:\"\";s:21:\"cform-radio-font-size\";s:2:\"14\";s:23:\"cform-radio-font-weight\";s:6:\"normal\";s:24:\"cform-select-font-family\";s:6:\"Roboto\";s:26:\"cform-select-custom-family\";s:0:\"\";s:22:\"cform-select-font-size\";s:2:\"16\";s:24:\"cform-select-font-weight\";s:6:\"normal\";s:29:\"cform-multiselect-font-family\";s:6:\"Roboto\";s:29:\"cform-multiselect-custom-font\";s:0:\"\";s:27:\"cform-multiselect-font-size\";s:2:\"16\";s:29:\"cform-multiselect-font-weight\";s:6:\"normal\";s:26:\"cform-dropdown-font-family\";s:6:\"Roboto\";s:26:\"cform-dropdown-custom-font\";s:0:\"\";s:24:\"cform-dropdown-font-size\";s:2:\"16\";s:26:\"cform-dropdown-font-weight\";s:6:\"normal\";s:26:\"cform-calendar-font-family\";s:6:\"Roboto\";s:26:\"cform-calendar-custom-font\";s:0:\"\";s:24:\"cform-calendar-font-size\";s:2:\"13\";s:26:\"cform-calendar-font-weight\";s:6:\"normal\";s:24:\"cform-button-font-family\";s:6:\"Roboto\";s:24:\"cform-button-custom-font\";s:0:\"\";s:22:\"cform-button-font-size\";s:2:\"14\";s:24:\"cform-button-font-weight\";s:3:\"500\";s:26:\"cform-timeline-font-family\";s:6:\"Roboto\";s:26:\"cform-timeline-custom-font\";s:0:\"\";s:24:\"cform-timeline-font-size\";s:2:\"12\";s:26:\"cform-timeline-font-weight\";s:6:\"normal\";s:28:\"cform-pagination-font-family\";s:0:\"\";s:28:\"cform-pagination-custom-font\";s:0:\"\";s:26:\"cform-pagination-font-size\";s:2:\"16\";s:28:\"cform-pagination-font-weight\";s:6:\"normal\";s:19:\"payment_require_ssl\";b:0;s:15:\"submission-file\";s:6:\"delete\";s:7:\"form_id\";i:34;s:9:\"form_name\";s:11:\"oncle-sammy\";s:11:\"form_status\";s:7:\"publish\";s:20:\"cform-color-settings\";s:4:\"true\";s:30:\"button-submit-background-hover\";s:7:\"#3d5ce5\";}s:9:\"client_id\";N;s:13:\"notifications\";a:1:{i:0;a:8:{s:4:\"slug\";s:22:\"notification-1234-4567\";s:5:\"label\";s:11:\"Admin Email\";s:16:\"email-recipients\";s:7:\"default\";s:10:\"recipients\";s:47:\"m.cuenne@codeur.online , contact@oncle-sammy.fr\";s:13:\"email-subject\";s:66:\"Nouvelle entrée de formulaire n°{submission_id} pour {form_name}\";s:12:\"email-editor\";s:129:\"Vous avez une nouvelle soumission de formulaire : <br/> {all_fields} <br/>---<br/> Ce message a été envoyé depuis {site_url}.\";s:16:\"email-attachment\";s:4:\"true\";s:7:\"routing\";a:0:{}}}}'),
@@ -756,7 +756,6 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (170, 149, '_edit_lock', '1632494701:1'),
 (171, 147, '_customize_restore_dismissed', '1'),
 (172, 156, '_edit_lock', '1632743322:1');
-
 -- --------------------------------------------------------
 
 --
@@ -998,10 +997,12 @@ CREATE TABLE `wp_term_relationships` (
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
+
 (1, 1, 0),
 (14, 1, 0),
 (133, 3, 0),
 (134, 3, 0);
+
 
 -- --------------------------------------------------------
 
@@ -1023,8 +1024,10 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
+
 (1, 1, 'category', '', 0, 1),
 (3, 3, 'nav_menu', '', 0, 2);
+
 
 -- --------------------------------------------------------
 
@@ -1070,6 +1073,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (24, 1, 'closedpostboxes_dashboard', 'a:4:{i:0;s:18:\"dashboard_activity\";i:1;s:12:\"ogf-rss-feed\";i:2;s:21:\"dashboard_quick_press\";i:3;s:17:\"dashboard_primary\";}'),
 (25, 1, 'metaboxhidden_dashboard', 'a:0:{}');
 
+
 -- --------------------------------------------------------
 
 --
@@ -1095,6 +1099,7 @@ CREATE TABLE `wp_users` (
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'admin', '$P$B6GWS3azzER/jVLo2huQpvnjX7M27F1', 'admin', 'm.cuenne@codeur.online', 'http://onclesammy.test', '2021-09-23 13:04:43', '', 0, 'admin');
+
 
 -- --------------------------------------------------------
 
@@ -1299,6 +1304,7 @@ ALTER TABLE `wp_comments`
   ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 --
+
 -- Index pour la table `wp_frmt_form_entry`
 --
 ALTER TABLE `wp_frmt_form_entry`
@@ -1327,6 +1333,7 @@ ALTER TABLE `wp_frmt_form_views`
   ADD KEY `view_form_object_ip` (`form_id`,`view_id`,`ip`);
 
 --
+
 -- Index pour la table `wp_links`
 --
 ALTER TABLE `wp_links`
@@ -1407,7 +1414,7 @@ ALTER TABLE `wp_users`
   ADD KEY `user_nicename` (`user_nicename`),
   ADD KEY `user_email` (`user_email`);
 
---
+
 -- Index pour la table `wp_wpgmza`
 --
 ALTER TABLE `wp_wpgmza`
@@ -1450,6 +1457,7 @@ ALTER TABLE `wp_wpgmza_rectangles`
   ADD PRIMARY KEY (`id`);
 
 --
+
 -- AUTO_INCREMENT pour les tables déchargées
 --
 
@@ -1466,6 +1474,7 @@ ALTER TABLE `wp_comments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+
 -- AUTO_INCREMENT pour la table `wp_frmt_form_entry`
 --
 ALTER TABLE `wp_frmt_form_entry`
@@ -1484,6 +1493,7 @@ ALTER TABLE `wp_frmt_form_views`
   MODIFY `view_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=266;
 
 --
+
 -- AUTO_INCREMENT pour la table `wp_links`
 --
 ALTER TABLE `wp_links`
@@ -1493,19 +1503,29 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT pour la table `wp_options`
 --
 ALTER TABLE `wp_options`
+
   MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=476;
+=======
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=258;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
+
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+=======
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_posts`
 --
 ALTER TABLE `wp_posts`
+
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_termmeta`
@@ -1517,25 +1537,32 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT pour la table `wp_terms`
 --
 ALTER TABLE `wp_terms`
+
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
+
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
+
   MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_users`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 
 --
 -- AUTO_INCREMENT pour la table `wp_wpgmza`
@@ -1578,6 +1605,7 @@ ALTER TABLE `wp_wpgmza_polylines`
 --
 ALTER TABLE `wp_wpgmza_rectangles`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
