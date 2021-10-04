@@ -35,7 +35,7 @@
     <div class="container">
       <div class="nav-header">
         <div class="row">
-          <div class="col-lg-11 col-md-11 col-9 align-self-center">
+          <div class="col-lg-12 col-md-11 col-9 align-self-center">
             <?php if(has_nav_menu('primary-left')){ ?>
               <div class="toggle-nav mobile-menu">
                 <button role="tab" onclick="cafe_coffee_shop_menu_open_nav()"><i class="<?php echo esc_attr(get_theme_mod('vw_bakery_res_open_menu_icon','fas fa-bars')); ?>"></i><span class="screen-reader-text"><?php esc_html_e('Open Button','cafe-coffee-shop'); ?></span></button>
@@ -56,11 +56,6 @@
                 ?>
                 <a href="javascript:void(0)" class="closebtn mobile-menu" onclick="cafe_coffee_shop_menu_close_nav()"><i class="<?php echo esc_attr(get_theme_mod('vw_bakery_res_close_menus_icon','fas fa-times')); ?>"></i><span class="screen-reader-text"><?php esc_html_e('Close Button','cafe-coffee-shop'); ?></span></a>
               </nav>
-            </div>
-          </div>
-          <div class="col-lg-1 col-md-1 col-3 align-self-center">
-            <div class="search-box">
-              <span><a href="#"><i class="fas fa-search"></i></a></span>
             </div>
           </div>
         </div>

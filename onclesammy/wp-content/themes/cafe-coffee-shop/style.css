@@ -137,8 +137,9 @@ a:focus span{
 }
 .logo img {
   max-height: unset;
-  width: auto;
+  width: 60%!important;
   padding: 0;
+	margin-top:18% !important;
 }
 .logo h1 a, 
 .logo p.site-title a,#header,
@@ -534,6 +535,9 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
 .woocommerce-product-gallery__image {
   padding: 5px;
 }
+.vw-page-title{
+	margin-top:60px;
+}
 /*------- FOOTER CSS --------*/
 
 #footer{
@@ -556,6 +560,23 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
 }
 #footer a.custom_read_more{
   color: #b89d64;
+}
+.nav-footer{
+	display: flex;
+}
+.nav-footer li{
+	list-style: none; 
+	color: white;
+	text-decoration: none;
+}
+.ml a, .cgv a{
+	color: white;
+}
+.copyright{
+	margin-left: 55%;
+}
+.fc-time-grid-event .fc-time, .fc-time-grid-event .fc-title{
+	color:black;
 }
 /*----------- PRELOADER ----------*/
 #preloader {
@@ -644,12 +665,45 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
 .elementor-page #preloader{
   display: none;
 }
+
+/* Menu header */
+#menu-menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 43px;
+}
+
+#menu-menu-1 li:nth-child(2) {
+    margin-right: 250px;
+}
+
 /*------- MEDIA CSS --------*/
 
 @media screen and (max-width:720px) {
-  .logo {
+	.admin-bar #header{
+		margin-top: 46px;
+	}
+	.logo {
     padding: 10px 0;
   }
+	.vw-page-title {
+    margin-top: -30px;
+    margin-left: 20px;
+}
+	img.custom-logo{
+		width:40%!important; 
+		height:150%!important;
+		position:relative; 
+		bottom:107px;
+	}
+	.fl-node-6156f527c11e4{
+		width:80%;
+		margin-left: 10%;
+	}
+	.fl-rich-text p:nth-child(2) span{
+		font-size:16px!important;
+	}
   #heade-top .phone {
     text-align: left;
   }
@@ -657,8 +711,12 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
     text-align: right;
   }
   .toggle-nav {
-    background: #b89d64;
+	position:absolute;
   }
+	.toggle-nav i{
+		position: absolute; 
+		top: -164px;
+	}
   .page-template-custom-home-page #header {
     position: static;
     background: #311f15;
@@ -676,6 +734,35 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
   #slider .inner_carousel h1 a {
     font-size: 25px;
   }
+	#menu-menu-1{
+		display:flex; 
+		flex-direction: column;
+		margin-left:0;
+	}
+	#menu-menu-1 li:nth-child(2){
+		margin-right: 0;
+	}
+	.fl-node-615314cd5dc4a{
+		display:none!important;
+	}
+	.fl-node-6154362d63153 {
+		top:2%;
+	}
+	.fl-node-6154362d63153 a{
+		padding: 4px 10px;
+	}
+	.nav-footer{
+		display:inline;
+	}
+	.copyright{
+		margin:0;
+	}
+	.wp-block-latest-posts a{
+		display:none;
+	}
+	.wp-block-spacer{
+		height:0!important;
+	}
   #bakery-product .woocommerce ul.products li.product,
   #bakery-product .woocommerce-page ul.products li.product {
     width: 100%;
@@ -755,6 +842,7 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
 }
 
 @media screen and ( max-width: 1024px ) and ( min-width: 788px ) {
+
   .logo img, .logo, .logo_outer_box,
   #slider .inner-carousel-conetnt{
     background: transparent;
@@ -762,4 +850,31 @@ nav.woocommerce-MyAccount-navigation ul li a:hover {
   #slider .carousel-caption {
     transform: translateY(-30%);
   }
+	.logo img{
+		width:100%!important;
+		margin-top: 9% !important;
+	}
+	
+	#menu-menu-1{
+		display:inline;
+	}
+	#menu-menu-1 li:nth-child(2){
+		margin-right:0;
+	}
+	.abs-button{
+		top: 15%
+	}
+	.nav-footer{
+		display:inline
+	}
+	.copyright{
+		margin-left:0;
+	}
+	#sammy{
+    position: absolute;
+    width: 360px;
+    top: 33.5%;
+    left: 0;
+}
+	
 }

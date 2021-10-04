@@ -55,9 +55,15 @@
     </div>
 
     <div id="footer-2">
-      	<div class="copyright">
+      	<div>
             <div class="container">
-                <p><?php cafe_coffee_shop_credit(); ?> <?php echo esc_html(get_theme_mod('vw_bakery_footer_text',__('By VWThemes','cafe-coffee-shop'))); ?></p>
+				<ul class="nav-footer" >
+					<li>Restaurant Oncle Sammy | </li>
+					<li class="ml"><a href="https://mathieuc883.promo-91.codeur.online/onclesammy/mentions-legales/">Mention légales | </a></li>
+					<li class="cgv"><a href="https://mathieuc883.promo-91.codeur.online/onclesammy/conditions-generales-de-vente-cgv/">CGV </a></li>
+					<li class="copyright"> &copy Dev= Math+E²</li>
+				</ul>
+				
                 <?php if( get_theme_mod( 'vw_bakery_hide_show_scroll',true) != '' || get_theme_mod( 'vw_bakery_resp_scroll_top_hide_show',true) != '') { ?>
                     <?php $vw_bakery_theme_lay = get_theme_mod( 'vw_bakery_scroll_top_alignment','Right');
                     if($vw_bakery_theme_lay == 'Left'){ ?>
