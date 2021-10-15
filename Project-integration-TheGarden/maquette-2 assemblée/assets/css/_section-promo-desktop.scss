@@ -1,0 +1,68 @@
+@import './_variable';
+
+@media (min-width: 1200px) {
+
+    .section_promo {
+        padding-bottom: 7%;
+            
+                h1 {
+                    @include div(6);  
+                    margin-left: 14%; 
+                    color: $black
+                }
+
+                h2 {
+                    @include div(4);
+                    margin-left: 14%; 
+                }
+                    span {
+                        display: none;
+                    }
+            
+                p {
+                    @include div(2);
+                    margin-left: 14%; 
+                }
+                .btn-promo {
+                    text-decoration: none;
+                    text-align: center;
+                    color: $white;
+                    background-color: $light-green;
+                    background: linear-gradient(to right, $light-green, $dark-green);
+                    border-radius: 27px 0px 27px 0px;
+                    padding: 12px ; 
+                    font-size: 2em;
+                    margin-left: 14%;                   
+                }
+    
+
+            img {
+                display: flex;
+                margin-left: 37%;
+                margin-top: -33%;
+                width: 47%;
+                padding-bottom: 1%;
+                margin-bottom: -7%;
+            }
+            
+    
+           
+
+          
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

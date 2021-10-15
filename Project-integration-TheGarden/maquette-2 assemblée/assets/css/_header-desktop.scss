@@ -1,0 +1,45 @@
+@media (min-width: 1200px) {
+
+    header {
+      text-align : center;
+      display : block;
+      margin : 0;
+      
+      section {
+              background-color: $light-gray;              
+            
+              p {
+                font-size: 80%;
+                margin: 0;
+              }
+
+              a {
+                text-decoration : none;
+                color : $light-green;
+              }  
+      }
+  
+      nav {
+          
+            .logo {
+                margin: -1% auto 0 auto;
+                width: 17%;
+                    a img {
+                        width: 56%;
+                    }
+            }
+
+          p {
+            text-align: center;
+            margin: 0.5%;
+          }
+      }
+    
+  }
+  
+  
+  
+  
+  
+    
+  }

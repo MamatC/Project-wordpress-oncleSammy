@@ -1,0 +1,372 @@
+/**** Configuration générale ****/
+    //Définition des couleurs
+@import 'variables';
+
+@mixin color($color : white) {
+    color: $color;
+}
+.text-red {
+    @include color($red);
+}
+.text-blue {
+    @include color($light-blue);
+}
+.text-gray {
+    @include color($dark-gray);
+}
+.text-white {
+    @include color($white);
+}
+.text-green {
+    @include color($light-green);
+}
+.text-right {
+    text-align: right;
+}
+.fond-gris {
+    background-color: $light-gray;
+}
+
+    //Définition des police et de la marge du body
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: segoe ui;
+}
+
+/***** Version mobile ****/
+    //Mise en forme des containers et du flex
+.container-mobile {
+    width: 90%;
+    margin: auto;
+}
+
+.flexible-mobile {
+    display: flex;
+}
+
+.flexible-pc {
+    display: block;
+}
+
+/**** Header ****/
+header {
+    padding-bottom: 10%;
+}
+    // Lien qui permet d'avoir une autre version de la newsletter
+.visualiser {
+    font-size: 0.8em;
+    color: $dark-gray;
+}
+
+    // Logo et titre du logo
+h2 {
+    font-weight: lighter;
+}
+#logo, #tondeuse, #carte { //Taille des images, 100% de leurs contenant
+    width: 100%;
+}
+
+#newsletter { //On déplace "Newsletter" au niveau du logo
+    padding-right: 5%;
+}
+#logo { //Le logo est presque collé à Newsletter
+    margin-bottom: -5%;
+}
+
+    //  Bouton voir produit
+.voir-produit { //Le bouton est aligné à droite
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn {  //Apparence du bouton
+    text-decoration: none;
+    background-color: #2fd1b8;
+    color: #fdfdfd;
+    padding: 4% 15%;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+    // Slogan + grande image
+.slogan {
+    font-weight: bold;
+    margin: 1%;
+    font-size: 1.6em;
+}
+
+.reduc { //La phrase de réduction est cyan en version mobile
+    color: $light-blue;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.tondeuse-left { //Le texte de la tondeuse est au desssus de l'image
+    position: relative;
+    z-index: 1;
+}
+
+#tondeuse { //L'image de la tondeuse est en dessous 
+    width: 100%;
+    margin-top: -20%;
+    position: relative;
+    z-index: 0;
+}
+
+    //  Prix
+.text-barre { //Le prix barré
+    text-decoration: line-through;
+}
+
+.prix { 
+    width: 100%;
+    font-size: 2.5em;
+}
+
+#prix { 
+    margin: 0;
+}
+
+#prix-barre {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/***** Section 1 *****/
+.section1 { //Le fond de la section a des marges
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+/***** Section 2 *****/
+.section2 {
+    text-align: center;
+    & h3:first-child { //Besoin de conseil
+    font-size: 1.5em;
+    color: $light-green;
+    }
+    & h3:nth-child(2) { //truc et astuces
+        font-size: 1.2em;
+        color: $red;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+iframe { //vidéo Youtube
+    width: 100%;
+}
+
+/***** Section 3 *****/
+.section3 { //On aère la section
+    padding-bottom: 7%;
+}
+
+.section3-right { // Section 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section3-left { 
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    font-weight: bold;
+}
+    // Icones des réseaux sociaux
+.icones { //Taille des icones
+    width: 50px;
+}
+
+.icons-ligne1 { //Espace entre le groupe des 3 icones et le groupe de 2
+    margin-bottom: 5%;
+}
+.icons-ligne1, .icons-ligne2 { //Espace entre les icones
+    gap: 60px;
+    display: flex;
+    text-align: center;
+}
+
+/***** Footer *****/
+.footer {
+    text-align: center;
+    padding: 5%;
+}
+
+.footer p { //On met en forme les liens du footer
+    margin: 0;
+    a {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+#copyright { //La div du copyright est écarté du reste
+    margin: 3% 0%;
+}
+
+.barre { //La barre qui sépare le copyright du reste disparait en version mobiles
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    // Configuration des container et des flexs
+    .container-pc {
+        width: 80%;
+        margin: auto;
+    }
+
+    .flexible-mobile {
+        display: block;
+    }
+
+    .flexible-pc {
+        display: flex;
+        text-align: center;
+    }
+
+/**** Header ****/
+    .header {   // On décole le logo du bord suppérieur de l'écran
+        margin-bottom: 5%;
+    }
+    // Phrase visualiser en version mobile
+    .visualiser {
+        text-align: left;
+        margin: 1%;
+    }
+
+    // Le mot Newsletter du logo est collé 
+    h2 {
+        margin-top: 0;
+    }
+
+    .header-logo{ //On aère la partie logo du reste
+        text-align: center;
+        margin-bottom: -8%;
+    }
+
+    #logo { //Taille du logo en mode mobile
+        width: 30%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #newsletter { //Le mot newsletter 
+        padding-right: 36%;
+        font-size : 1.2em;
+        position: relative;
+        font-weight: bolder;
+    }
+
+    // Slogan et image tondeuse
+    .reduc { //Phrase réduction
+        font-size: 1.5em;
+        text-align: right;
+        letter-spacing: 3px;
+    }
+
+    .tondeuse-left { //Tous les éléments textuels à gauche de la tondeuse
+        width: 90%;
+        padding-top: 12%;
+    }
+
+    .prix-div { //Div regroupant tous les prix
+        width: 40%;
+        padding-top: 25%;
+        padding-right: 1%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #tondeuse { //On désactive le margintop de l'image de la tondeuse
+        margin-top: 0;
+    }
+    
+    // Boutons
+    .voir-produit {
+        margin-top: 5%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+/**** Section 1 ****/
+    .section1{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border-left: 1px solid $dark-gray;
+    }
+
+    .cadre-gauche {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        text-align: left;
+    }
+
+    .cadre-droit {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    #carte { //Taille de la carte de fidélité
+        width: 85%;
+    }
+    
+/**** Section 2 ****/
+    .section2, .section3, footer {
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+    }
+/**** Section 3 ****/
+    .section3 {
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    .section3-left {
+        font-size: 1.6em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+/**** Icones ****/
+    .icons-ligne1 {
+        margin-bottom: 0;
+    }
+
+    #google { //L'icone google est séparé du reste
+        margin-right: 60px;
+    }
+
+/***** Footer *****/  
+    .footer {
+        display: flex;
+        padding: 2%;
+        justify-content: center;
+        font-size: 1.2em;
+    }
+
+    .barre { //La barre qui sépare le copyright apparait en version web
+        display: inline;
+    }
+
+    #copyright { //La div du copyright est écarté du reste
+        margin-right: 14%;
+        margin-left: 2%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }   
+}

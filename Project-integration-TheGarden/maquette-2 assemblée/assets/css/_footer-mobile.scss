@@ -1,0 +1,33 @@
+footer{
+    background-color: $gray-light;
+
+    // alignement des logos
+    .logo-reseau{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    div{
+        img{
+            // taille des logos
+            width: 140%;
+        }
+    }
+
+    // habillage du lien se désinscrire
+    .desinscr{
+        text-decoration: underline;
+        font-size: 17px;
+        color: $dark-green;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 0.5em;
+    }
+
+    // alignement 'se désinscrire'
+    .footer-bas{
+        display: flex;
+        justify-content: center;
+    }
+}

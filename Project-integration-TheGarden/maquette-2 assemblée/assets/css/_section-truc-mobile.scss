@@ -1,0 +1,66 @@
+// conteneur des 2 cards
+.truc{
+    padding: 50px 0 30px 0;
+}
+
+// div contenant l'image et le texte
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+// taille de la div contenant l'ampoule
+.taille-div-light{
+    text-align: center;
+    width: 30%;
+}
+
+// taille du lien ampoule
+.taille-div-light img {
+    width: 30%;
+}
+
+// taille div contenant les textes
+.taille-div-text{
+    width: 60%;
+    // padding-left: 10px;
+
+        // changement des textes cliquables
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: $dark-green;
+            font-size: 1.2em;
+        }
+    }
+
+// span retour à la ligne avec display block
+.return{
+    display: inline-block
+}
+
+// taille div contenant carte de fidélité
+.taille-div-card{
+    display: flex;
+    align-items: center;
+    width: 20%
+}
+
+// taille image carte fidélité
+.modif-card{
+    width: 70% !important;
+    margin-top: 5px;
+}
+
+// taille p trucs et astuces
+.lien-text{
+    width: 100%;
+}
+
+// taille p fidélité
+.lien-text2{
+    width: 120%;
+}

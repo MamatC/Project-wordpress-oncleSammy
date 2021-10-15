@@ -1,0 +1,60 @@
+@import './_variable';
+
+@mixin div($size: 3) {
+    font-size: $size + em;
+    margin-left: 7%;
+    display: block;
+    flex-direction: column;
+    
+}
+
+.section_promo {
+    background-color: $light-gray;
+    padding-bottom: 20%;
+    
+            h1 {
+            @include div;  
+            margin-bottom: 1%;
+            margin-top: 0;
+            color: $red
+            }
+       
+            h2 {
+            @include div;
+            margin-top: 0;
+            margin-bottom: 1%;
+            font-size: 1.6em;
+            margin-left: 7%;
+                span {
+                display: block;
+                }
+            }
+            p {
+            margin-top: 0;
+            padding-bottom: 3%;
+            margin-left: 7%;    
+            }
+
+    
+   
+    .btn-promo {
+        margin-left: 32%;
+        margin-right: 20%;
+        text-decoration: none;
+        text-align: center;
+        color: $white;
+        background-color: $light-green;
+        background: linear-gradient(to right, $light-green, $dark-green);
+        border-radius: 9px 0px 9px 0px;
+        padding: 9px ; 
+    }
+
+    img {
+        display: flex;
+        margin-left: 6%;
+        margin-top: -27%;
+        width: 88%;
+        padding-bottom: 17%;
+    }
+
+}

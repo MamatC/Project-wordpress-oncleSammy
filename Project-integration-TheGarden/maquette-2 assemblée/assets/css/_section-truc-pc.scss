@@ -1,0 +1,42 @@
+@media screen and (min-width:415px){
+    
+    
+    // alignement des 2 div card
+    .truc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    // taille et centrer les elements
+    // image et text dans chaque div card
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    // taille du lien ampoule
+    .taille-div-light a{
+        width: 40%;
+    }
+    // taille de la div contenant la carte de fidélité
+    .taille-div-card{
+        width: 30%
+    }
+    .lien-text{
+        width: 100%;
+    }
+
+    // taille de la div contenant le texte 'points fidélité'
+    .lien-text2{
+        width: 120%;
+    }
+
+    // taille des 2 textes
+    .taille-div-text{
+        font-size: 1.5em;
+    }
+  }
